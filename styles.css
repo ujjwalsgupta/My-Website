@@ -1,0 +1,370 @@
+/************************************ Section-1 : Body *********************************************/
+body {
+  margin: auto;
+  text-align: center;
+  /* Used for centering all the elements present inside the body */
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  /* 16px = 100% = 1em = 1rem */
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  line-height: 1.3;
+  /* Used to increase or decrease the height between two lines/elements */
+  color: #521d53;
+  font-size: 5.625rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  color: #6f2871;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #723773;
+}
+
+/************************************ Section-2 : Top-Div *********************************************/
+/**************** Top-Container *****************/
+.top-container {
+  background-color: #FFDCFF;
+  position: relative;
+  height: 800px;
+}
+
+.navigation-bar {
+  height: 50px;
+  padding: 25px 0 0 0;
+  background-color: #FFDCFF;
+  position: relative;
+}
+
+.aboutme {
+  position: absolute;
+  right: 275px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #521d53;
+  font-size: 1rem;
+}
+
+.myinterests {
+  position: absolute;
+  right: 155px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #521d53;
+  font-size: 1rem;
+}
+
+.contactme {
+  position: absolute;
+  right: 50px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #521d53;
+  font-size: 1rem;
+}
+
+.mylogo {
+  margin: 0 0 0 5px;
+  width: 43.2px;
+  position: absolute;
+  left: 20px;
+  top: 13px;
+  position: fixed;
+  }
+
+.logotext {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1.2px;
+  margin: 0 0 0 60px;
+  position: absolute;
+  left: 10px;
+  position: fixed;
+}
+
+/********** Sub-heading (<paragraph> class) *******/
+.sub-heading {
+  font-size: 1.5rem;
+  margin-top: 25px;
+  color: #521d53;
+  font-weight: normal;
+  font-family: 'Yaldevi', sans-serif;
+  }
+
+.cloud1 {
+  width: 10rem;
+  /*position: absolute;
+  top: 100px;*/
+  margin-left: -525px;
+  margin-top: 20px;
+}
+
+.cloud2 {
+  width: 11rem;
+  position: absolute;
+  margin-left: 450px;
+  top: 290px;
+}
+
+.campingimg {
+  width: 38rem;
+  padding-top: 40px;
+}
+
+
+/************************************ Section-2 : Middle-Div *********************************************/
+.my-img {
+  width: 200px;
+  margin-top: 75px;
+}
+
+.hii-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+.intro-para {
+  line-height: 2;
+  width: 33rem;
+  margin: auto;
+}
+
+.first-hr {
+  border-style: dotted none none none;
+  border-width: 7px;
+  width: 4%;
+  border-color: #FFDCFF;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.myskills-heading {
+  font-weight: 100;
+}
+
+.skills {
+  display: inline-block;
+  width: 50rem;
+  text-align: left;
+  margin-bottom: 18px;
+}
+
+.skill-row {
+  display: inline-block;
+  width: 50rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 2;
+}
+
+.videoediting-img {
+  width: 23%;
+  float: left;
+  /* Used to place text, elements side by side */
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.programming-img {
+  width: 23%;
+  float: right;
+  margin-left: 30px;
+}
+
+.gaming-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.last-hr {
+  border-style: dotted none none none;
+  border-color: #FFDCFF;
+  border-width: 7px;
+  width: 4%;
+}
+
+/************************************ Section-3 : Contact Me *********************************************/
+.getintouch {
+  font-weight: 100;
+}
+
+/********* ContactMe-text **********/
+.contact-me {
+  height: 425px;
+  margin-top: 80px;
+}
+
+.contactme-h3 {
+  line-height: 3.5;
+  font-weight: 600;
+}
+
+.contactme-paragraph {
+  line-height: 2;
+  width: 40%;
+  margin: auto;
+}
+
+/************ ContactMe-button **********/
+.btn {
+  margin: 40px auto 35px;
+  box-shadow: inset 0 1px 0 0 #a6827e;
+  background: linear-gradient(to bottom, #521d53 5%, #240d1c 100%);
+  background-color: #521d53;
+  border-radius: 10px;
+  border: 1px solid #54381e;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  padding: 10px 24px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #4d3534;
+}
+
+/************** ContactMe button-hover ****************/
+.btn:hover {
+  background: linear-gradient(to bottom, #240d1c 5%, #521d53 100%);
+  background-color: #240d1c;
+}
+
+/************** Website Visits ****************/
+.visitor-counter {
+  margin: 0 auto 20px auto;
+}
+
+.count, .Visited, .times {
+  color: gray;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+/************************************ Section-4 : Bottom-Div (Footer) *********************************************/
+/********** Bottom(footer)-div ***********/
+.bottom-container {
+  background-color: #FFDCFF;
+  width: auto;
+  padding: 80px 0 20px;
+  text-align: center;
+}
+
+/******* Footer-text ********/
+
+.table1, .table2, .table3, .table4, .table5 {
+  margin: 0 80px 0;
+}
+
+.LinkedIn {
+  color: #521d53;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-decoration: none;        /* Used to remove the underline below the <anchor> element */
+}
+
+.GitHub {
+  font-family: 'Montserrat', sans-serif;
+  color: #521d53;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.Vimeo {
+  color: #521d53;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.Dribbble {
+  color: #521d53;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.Instagram {
+  color: #521d53;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #521d53;
+  padding-top: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+.table1 {
+  display: inline-block;
+}
+
+.table2 {
+  display: inline-block;
+}
+
+.table3 {
+  display: inline-block;
+}
+
+.table4 {
+  display: inline-block;
+}
+
+.table5 {
+  display: inline-block;
+}
+/******* Footer-logo *********/
+
+.Linkedinlogo {
+  width: 22px;
+}
+
+.Githublogo {
+  width: 21px;
+}
+
+.Dribbblelogo {
+  width: 21px;
+}
+
+.Vimeologo {
+  width: 21px;
+}
+
+.Instagramlogo {
+  width: 21px;
+}
+
+/*********** Footer-hover ***********/
+.LinkedIn:hover {
+  color: #a58ba5;
+}
+
+.GitHub:hover {
+  color: #a58ba5;
+}
+
+.Vimeo:hover {
+  color: #a58ba5;
+}
+
+.Dribbble:hover {
+  color: #a58ba5;
+}
+
+.Instagram:hover {
+  color: #a58ba5;
+}
