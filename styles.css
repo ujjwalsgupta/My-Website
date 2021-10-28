@@ -70,6 +70,22 @@ h3 {
   font-size: 1rem;
 }
 
+/*****************navbar-hover******************/
+
+.aboutme:hover {
+  color: #a58ba5;
+}
+
+.myinterests:hover {
+  color: #a58ba5;
+}
+
+.contactme:hover {
+  color: #a58ba5;
+}
+
+
+
 .mylogo {
   margin: 0 0 0 5px;
   width: 43.2px;
