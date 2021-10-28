@@ -1,5 +1,5 @@
 function updateCounter() {
-    fetch('https://api.countapi.xyz/update/ujjwalgupta/api/?amount=1')
+    fetch('https://api.countapi.xyz/update/ujjwalgupta/cod/?amount=1')
         .then(res => res.json())
         .then(data => counterElement.innerHTML = data.value)
 }
